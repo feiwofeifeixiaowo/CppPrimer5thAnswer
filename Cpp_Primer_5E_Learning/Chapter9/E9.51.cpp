@@ -6,6 +6,10 @@
 #include <vector>
 using namespace std;
 
+// 主要问题在 string.substr(pos,n)
+// 这个函数 pos 是切分的开始位置，
+//         n   是要截取的字符数量
+//
 int main()
 {
 //    string date1("January,1,1900");
@@ -14,7 +18,7 @@ int main()
 
     string split("/ ,");
     string::size_type sz = 0;
-    string word("");
+    string word;
 
     vector<string> svec;
 //    string str(date1);
