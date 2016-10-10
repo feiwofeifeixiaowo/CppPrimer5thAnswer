@@ -3,29 +3,42 @@
 //
 #include <string>
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main()
 {
-    string date1("January 1,1900");
-    string date2("1/1/1900");
-    string date3("Jan 1 1900");
+//    string date1("January,1,1900");
+//    string date1("1/1/1900");
+    string date1("Jan 1 1900");
 
     string split("/ ,");
     string::size_type sz = 0;
+    string word("");
+
+    vector<string> svec;
 //    string str(date1);
     while(sz <= date1.size())
     {
-//        auto index = str.find_first_of(split,sz);
-        string word = date1.substr(sz,date1.find_first_of(split,sz));
-        cout << "sz: " << sz << endl;
-        cout << "word: " << word << endl;
-        sz+= (word.size()+1);
-        //update str
-////        str = date1.substr(sz,date1.size()-1);
-//        cout << "str: " << str << endl;
+        auto index = date1.find_first_of(split,sz);
+        if(index != string::npos)
+        {
+            word = date1.substr(sz,date1.find_first_of(split,sz) - sz);
+            sz+= (word.size()+1);
+            svec.push_back(word);
+//            cout << word << endl;
+        }
+        else
+        {   sz -=word.size();
+            word = date1.substr(sz+1,date1.size());
+            svec.push_back(word);
+//            cout << word << endl;
+            break;
+        }
     }
-//    cout << date1 << endl;
-
+    for(auto s:svec)
+    {
+        cout << s << endl;
+    }
+    cout << endl;
 }
