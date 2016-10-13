@@ -13,5 +13,9 @@ int main()
     for (auto i:ivec)
         cout << i << "\t";
     cout << endl;
+
+    vector<int> ivec2;
+    fill_n(ivec2.begin(),ivec2.size(),0);
+
     return 0;
 }
