@@ -8,8 +8,16 @@
 
 using namespace std;
 
+template<typename Sequence>
+auto println(Sequence const& seq) -> std::ostream&
+{
+    for(auto const& elem : seq)
+        cout << elem << "\t";
+    return cout << endl;
+}
+
 void print(vector<string> &svec){
-    for(auto s:svec)
+    for(auto &s:svec)
         cout << s << "\t";
     cout << endl;
 }
