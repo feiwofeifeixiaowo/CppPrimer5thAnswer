@@ -30,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="E10.20.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="E10.20.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter10/E10.20.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
@@ -38,16 +38,6 @@
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E10.21.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter10/E10.21.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -115,8 +105,8 @@
         <option value="$PROJECT_DIR$/Chapter10/E10.17.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.18.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.19.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Chapter10/E10.20.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Chapter10/E10.21.cpp" />
       </list>
     </option>
@@ -412,12 +402,12 @@
       <workItem from="1476719304095" duration="3914000" />
       <workItem from="1476774316321" duration="5667000" />
       <workItem from="1476872900462" duration="159000" />
-      <workItem from="1476873407164" duration="10458000" />
+      <workItem from="1476873407164" duration="10896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114998000" />
+    <option name="totallyTimeSpent" value="115436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
@@ -835,6 +825,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/E10.18.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="52" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -843,10 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/E10.18.cpp">
+    <entry file="file://$PROJECT_DIR$/Chapter10/E10.21.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="52" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -858,14 +856,6 @@
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/E10.21.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
