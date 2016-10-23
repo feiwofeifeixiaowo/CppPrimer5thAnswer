@@ -24,6 +24,6 @@ int main()
 //
 //    for_each(svec.cbegin(),svec.cend(),
 //                [](const string &s){cout << s << "\t";});
-//    cout << endl;
+//    cout << endl;s
     return 0;
 }
