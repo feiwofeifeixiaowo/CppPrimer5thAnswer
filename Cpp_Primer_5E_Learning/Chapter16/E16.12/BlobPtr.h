@@ -1,0 +1,8 @@
+//
+// Created by Xiyun on 2016/11/13.
+//
+
+#ifndef CPP_PRIMER_5E_LEARNING_BLOBPTR_H
+#define CPP_PRIMER_5E_LEARNING_BLOBPTR_H
+
+#endif //CPP_PRIMER_5E_LEARNING_BLOBPTR_H
