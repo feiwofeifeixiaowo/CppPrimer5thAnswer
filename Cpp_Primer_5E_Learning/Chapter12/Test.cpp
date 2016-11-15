@@ -20,6 +20,7 @@ int main()
         *p1 = "hi";
     cout << *p1 << endl;
     cout << "test" << endl;
+    cout << __func__ << endl;
     return 0;
 
 }
