@@ -5,10 +5,13 @@
 #ifndef CPP_PRIMER_5E_LEARNING_STRBLOB_H
 #define CPP_PRIMER_5E_LEARNING_STRBLOB_H
 
+//for shared_ptr
 #include <memory>
 #include <string>
 #include <vector>
-
+//for out_of_range error
+#include <exception>
+#include <initializer_list>
 class StrBlob {
 public:
     using size_type = std::string::size_type;

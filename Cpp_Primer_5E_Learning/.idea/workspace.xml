@@ -33,10 +33,10 @@
       <file leaf-file-name="StrBlob.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/StrBlob.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="-506">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
-                <element signature="e#125#142#0" expanded="true" />
+                <element signature="e#142#159#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -428,12 +428,12 @@
       <workItem from="1478967287022" duration="12345000" />
       <workItem from="1479088626178" duration="1302000" />
       <workItem from="1479113279840" duration="2029000" />
-      <workItem from="1479214882939" duration="9435000" />
+      <workItem from="1479214882939" duration="9536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174453000" />
+    <option name="totallyTimeSpent" value="174554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="719" extended-state="0" />
@@ -889,10 +889,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/StrBlob.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="-506">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="e#125#142#0" expanded="true" />
+            <element signature="e#142#159#0" expanded="true" />
           </folding>
         </state>
       </provider>
