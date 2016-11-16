@@ -33,11 +33,34 @@
       <file leaf-file-name="StrBlob.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/StrBlob.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="100">
+              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
               <folding>
                 <element signature="e#142#159#0" expanded="true" />
+                <element signature="e#221#241#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/Test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#42#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/Test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter10/E10.1.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.2.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.3.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.5.cpp" />
@@ -93,10 +115,11 @@
         <option value="$PROJECT_DIR$/Chapter16/E16.12/Blob.h" />
         <option value="$PROJECT_DIR$/Chapter16/E16.12/E16.12.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Chapter16/E16.12/BlobPtr.h" />
         <option value="$PROJECT_DIR$/Chapter12/Test.cpp" />
         <option value="$PROJECT_DIR$/Chapter16/E16.14/Screen.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Chapter12/E12.2/Test.cpp" />
         <option value="$PROJECT_DIR$/Chapter12/E12.2/StrBlob.h" />
       </list>
     </option>
@@ -428,12 +451,12 @@
       <workItem from="1478967287022" duration="12345000" />
       <workItem from="1479088626178" duration="1302000" />
       <workItem from="1479113279840" duration="2029000" />
-      <workItem from="1479214882939" duration="9536000" />
+      <workItem from="1479214882939" duration="10028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174554000" />
+    <option name="totallyTimeSpent" value="175046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="719" extended-state="0" />
@@ -445,7 +468,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3221154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321875" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22328548" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22328548" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -507,13 +530,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter10/E10.9.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="44" column="89" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter10/E10.11.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -794,14 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter16/E16.12/E16.12.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -823,17 +831,17 @@
         <state relative-caret-position="140">
           <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
           <folding>
-            <element signature="e#125#142#0" expanded="true" />
-            <element signature="e#189#199#0" expanded="true" />
-            <element signature="e#225#237#0" expanded="true" />
-            <element signature="e#304#316#0" expanded="true" />
-            <element signature="e#382#394#0" expanded="true" />
-            <element signature="e#1286#1298#0" expanded="true" />
-            <element signature="e#1439#1451#0" expanded="true" />
-            <element signature="e#1593#1605#0" expanded="true" />
-            <element signature="e#1727#1739#0" expanded="true" />
-            <element signature="e#1862#1874#0" expanded="true" />
-            <element signature="e#2079#2091#0" expanded="true" />
+            <element signature="e#125#142#0" expanded="false" />
+            <element signature="e#189#199#0" expanded="false" />
+            <element signature="e#225#237#0" expanded="false" />
+            <element signature="e#304#316#0" expanded="false" />
+            <element signature="e#382#394#0" expanded="false" />
+            <element signature="e#1286#1298#0" expanded="false" />
+            <element signature="e#1439#1451#0" expanded="false" />
+            <element signature="e#1593#1605#0" expanded="false" />
+            <element signature="e#1727#1739#0" expanded="false" />
+            <element signature="e#1862#1874#0" expanded="false" />
+            <element signature="e#2079#2091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -843,7 +851,7 @@
         <state relative-caret-position="153">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="e#1076#1088#0" expanded="true" />
+            <element signature="e#1076#1088#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,7 +861,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#92#121#0" expanded="true" />
+            <element signature="e#92#121#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -871,28 +879,45 @@
         <state relative-caret-position="391">
           <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
-            <element signature="e#132#156#0" expanded="true" />
-            <element signature="e#990#1014#0" expanded="true" />
+            <element signature="e#132#156#0" expanded="false" />
+            <element signature="e#990#1014#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#43#62#0" expanded="true" />
+            <element signature="e#42#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/StrBlob.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="100">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding>
             <element signature="e#142#159#0" expanded="true" />
+            <element signature="e#221#241#0" expanded="true" />
           </folding>
         </state>
       </provider>

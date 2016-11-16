@@ -37,13 +37,14 @@ private:
 };
 #endif //CPP_PRIMER_5E_LEARNING_STRBLOB_H
 
+
 StrBlob::StrBlob() : data(std::make_shared<std::vector<std::string>>()) { }
 
 StrBlob::StrBlob(std::initializer_list<std::string> il) : data(std::make_shared<std::vector<std::string>>(il)) { }
 
 void StrBlob::check(size_type sz, const std::string &msg) const {
-    if(sz > data->size())
-        throw out_of_range(msg);
+    if(sz >= data->size())
+        throw std::out_of_range(msg);
 }
 
 std::string& StrBlob::front() {
