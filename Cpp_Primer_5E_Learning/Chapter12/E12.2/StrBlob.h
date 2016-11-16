@@ -44,21 +44,26 @@ void StrBlob::check(size_type sz, const std::string &msg) const {
 }
 
 std::string& StrBlob::front() {
+    check(0,"front on empty StrBlob");
     return data->front();
 }
 
 const std::string& StrBlob::front() const {
+    check(0,"front on empty StrBlob");
     return data->front();
 }
 
 const std::string& StrBlob::back() const {
+    check(0,"back on empty StrBlob");
     return data->back();
 }
 
 std::string& StrBlob::back() {
+    check(0,"back on empty StrBlob");
     return data->back();
 }
 
 void StrBlob::pop_back() {
+    check(0,"pop back on empty StrBlob");
     data->pop_back();
 }
