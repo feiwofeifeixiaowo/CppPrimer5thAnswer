@@ -21,6 +21,21 @@ int main()
     cout << *p1 << endl;
     cout << "test" << endl;
     cout << __func__ << endl;
+
+    string *ps1 = new string;  //默认初始化为空str
+    string *ps2 = new string();//值初始化为空str
+
+    int *pi1 = new int;   //默认初始化，*pi1的值未定义
+    int *pi2 = new int(); //值初始化，  *pi2的值为0
+    auto p_a = new auto(12);// c++ 11 新特性
+    cout << *p_a << endl;
+
+
+    //动态分配的const 对象
+    const int *pci = new const int(1024);//指向const的指针
+    const string *pcs = new const string;//分配一个空的str并返回const 指针
+
     return 0;
 
 }
+

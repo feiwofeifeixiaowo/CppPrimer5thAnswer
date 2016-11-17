@@ -17,3 +17,6 @@ int main()
     cout << sb.front() << "\t" << sb.back() << endl;
     return 0;
 }
+
+//E12.4 using size_type = std::string::size_type;
+//beacuse size_type is a unsigned type, therefore when sz got a negative number , the compiler convert it into positive number.
