@@ -20,6 +20,14 @@ auto print(vector<int>* ivec) ->void
     // release
     delete(ivec);
 }
+
+auto print(vector<int>* ivec) ->ostream&
+{
+    for(auto i : *ivec)
+        cout << i << "\t";
+    return cout << endl;
+}
+
 int main ()
 {
     vector<int >* pivec = ret_vec();
@@ -30,7 +38,8 @@ int main ()
         if(pivec->size() > 4)
             break;
     }
-    print(pivec);
+    print(pivec) << endl;
+    delete(pivec);
 
     return 0;
 }
