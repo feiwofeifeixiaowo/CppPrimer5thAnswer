@@ -6,6 +6,7 @@
 #include <string>
 
 using std::shared_ptr;
+using std::unique_ptr;
 using std::endl;
 using std::cout;
 using std::string;
@@ -49,10 +50,22 @@ void f_lambda(destination &d)
     cout << "connecting now (" << p.use_count() << ")" << endl;
 }
 
+void f_unique(destination &d)
+{
+    connection c = connect(&d);
+//    shared_ptr<connection> p(&c, end_connection);
+    using pf = void(*) (connection*);
+    unique_ptr<connection, pf >
+            p(&c, end_connection);
+
+    cout << "connecting now" << endl;
+}
+
 int main()
 {
     destination dest("202.118.176.67", 3316);
 //    f(dest);
-    f_lambda(dest);
+//    f_lambda(dest);
+    f_unique(dest);
     return 0;
 }

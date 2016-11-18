@@ -40,7 +40,13 @@ int main()
     unique_ptr<int>  pi2 = make_unique<int >(42);
 
     cout << "*pi2 : " <<  *pi2 << endl;
-    // unique_ptr 不支持普通的拷贝或赋值操作
+    // unique_ptr 不支持普通的拷贝或赋值操作,但是可以用 p2.reset(p3.release()) // release 是放弃指针的使用权，并不会释放内存
+    // 必须采用直接初始化的方式
+    pi2 = nullptr;
+
+    // error code  E12.16
+//    auto cup1 = pi2;
+
 
     return 0;
 
