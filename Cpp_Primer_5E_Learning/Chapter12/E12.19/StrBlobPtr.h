@@ -19,11 +19,9 @@ class StrBlob {
 public:
     //friend member
     friend class StrBlobPtr;
-    StrBlobPtr begin() { return StrBlobPtr(*this);}
-    StrBlobPtr end() {
-        auto ret = StrBlobPtr(*this, data->size());
-        return ret;
-    }
+
+    StrBlobPtr begin();
+    StrBlobPtr end();
 
     using size_type = std::string::size_type;
     //构造函数
@@ -58,6 +56,8 @@ public:
     std::string& deref() const;
     // 递增
     StrBlobPtr& incr();
+    // compare
+    bool operator!=(const StrBlobPtr& p) { return p.curr != curr;}
 
 private:
     std::shared_ptr<std::vector<std::string>>
@@ -66,24 +66,5 @@ private:
     std::size_t curr;//数组中当前的位置
 };
 
-std::shared_ptr<std::vector<std::string>>
-    StrBlobPtr::check(std::size_t sz, const std::string &msg) const {
-    auto ret = wptr.lock();// vector存在，返回shared_ptr 的对象
-    if(!ret)
-        throw std::runtime_error("unbound StrBlobPtr");
-    if(i >= ret->size())
-        throw std::out_of_range(msg);
-    return ret;
-}
 
-std::string& StrBlobPtr::deref() const {
-    auto p = check(curr, "dereference past end");
-    return (*p)[curr];
-}
-
-StrBlobPtr& StrBlobPtr::incr() {
-    check(curr, "increment past end of StrBlobPtr");
-    ++curr;
-    return *this;
-}
 #endif //CPP_PRIMER_5E_LEARNING_STRBLOBPTR_H
