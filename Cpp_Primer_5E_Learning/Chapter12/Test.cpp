@@ -45,9 +45,12 @@ int main()
     pi2 = nullptr;
 
     // error code  E12.16
-//    auto cup1 = pi2;
+    //auto cup1 = pi2;
 
-
+    // weak_ptr space
+    // weak_ptr 是一种不控制指向对象生存期的智能指针
+    auto p_weak = make_shared<int>(42);
+    weak_ptr<int> wp(p_weak);// 由 shared_ptr 创建一个weak_ptr
     return 0;
 
 }
