@@ -34,7 +34,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter10/Sales_data.h" />
         <option value="$PROJECT_DIR$/Chapter10/E10.12.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.13.cpp" />
         <option value="$PROJECT_DIR$/Chapter10/E10.14.cpp" />
@@ -83,8 +82,9 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Chapter12/E12.18.cpp" />
         <option value="$PROJECT_DIR$/Chapter12/Test.cpp" />
-        <option value="$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.h" />
         <option value="$PROJECT_DIR$/Chapter7/Test.cpp" />
+        <option value="$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.h" />
+        <option value="$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.cpp" />
       </list>
     </option>
   </component>
@@ -171,6 +171,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="E16.14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cpp_Primer_5E_Learning" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cpp_Primer_5E_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,12 +429,12 @@
       <workItem from="1478967287022" duration="12345000" />
       <workItem from="1479088626178" duration="1302000" />
       <workItem from="1479113279840" duration="2029000" />
-      <workItem from="1479214882939" duration="30292000" />
+      <workItem from="1479214882939" duration="32253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195310000" />
+    <option name="totallyTimeSpent" value="197271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="719" extended-state="0" />
@@ -852,14 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -888,12 +894,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#148#165#0" expanded="true" />
             <element signature="e#227#247#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
