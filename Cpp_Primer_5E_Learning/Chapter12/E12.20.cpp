@@ -5,8 +5,8 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include "E12.19/StrBlobPtr.h"
 #include <string>
+#include "E12.19/StrBlobPtr.h"
 
 int main()
 {
