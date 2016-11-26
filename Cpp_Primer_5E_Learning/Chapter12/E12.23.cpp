@@ -19,6 +19,7 @@ int main() {
     strcat(p, s1.c_str());
     strcat(p, s2.c_str());
     puts(p);
+    delete[] p;
     // 使用string标准库连接
     cout << s1 + s2 << endl;
     return 0;
