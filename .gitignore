@@ -1,4 +1,5 @@
 sites
+*.idea*
 *.d
 
 # Compiled Object files
