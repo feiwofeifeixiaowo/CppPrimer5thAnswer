@@ -31,7 +31,18 @@
     <favorites_list name="Cpp_Primer_5E_Learning" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="E12.24.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter12/E12.24.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,7 +90,6 @@
         <option value="$PROJECT_DIR$/Chapter12/E12.22/ConstStrBlobPtr.cpp" />
         <option value="$PROJECT_DIR$/Chapter12/E12.20.cpp" />
         <option value="$PROJECT_DIR$/Chapter12/E12.23.cpp" />
-        <option value="$PROJECT_DIR$/Chapter12/E12.24.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Chapter12/E12.26.cpp" />
@@ -87,6 +97,7 @@
         <option value="$PROJECT_DIR$/Chapter12/E12.27/TextQuery.cpp" />
         <option value="$PROJECT_DIR$/Chapter12/E12.27/TextQuery.h" />
         <option value="$PROJECT_DIR$/Chapter12/E12.27/QueryResult.h" />
+        <option value="$PROJECT_DIR$/Chapter12/E12.24.cpp" />
       </list>
     </option>
   </component>
@@ -417,18 +428,18 @@
       <workItem from="1479214882939" duration="42090000" />
       <workItem from="1479743667311" duration="300000" />
       <workItem from="1479902480893" duration="824000" />
-      <workItem from="1479952631629" duration="15054000" />
+      <workItem from="1479952631629" duration="15115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223286000" />
+    <option name="totallyTimeSpent" value="223347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18665607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18665607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31089744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31730768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -799,14 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/E12.24.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
@@ -886,6 +889,14 @@
           <folding>
             <element signature="e#42#64#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/E12.24.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

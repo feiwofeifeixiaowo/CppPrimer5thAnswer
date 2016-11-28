@@ -1,6 +1,6 @@
 sites
-*.idea*
 *.d
+Cpp_Primer_5E_Learning/.idea/*
 
 # Compiled Object files
 *.slo
