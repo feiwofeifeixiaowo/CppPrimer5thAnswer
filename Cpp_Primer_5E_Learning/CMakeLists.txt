@@ -13,7 +13,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 add_subdirectory(Chapter12/E12.22)
 
 # 执行文件 入口函数所在文件
-set(SOURCE_FILES  Chapter12/E12.24.cpp)
+set(SOURCE_FILES  Chapter12/E12.26.cpp)
 
 # 指定生成目标
 add_executable(Cpp_Primer_5E_Learning ${SOURCE_FILES})
