@@ -1,0 +1,14 @@
+//
+// Created by Xiyun on 2016/11/28.
+//
+
+#ifndef CPP_PRIMER_5E_LEARNING_QUERYRESULT_H
+#define CPP_PRIMER_5E_LEARNING_QUERYRESULT_H
+
+
+class QueryResult {
+
+};
+
+
+#endif //CPP_PRIMER_5E_LEARNING_QUERYRESULT_H
