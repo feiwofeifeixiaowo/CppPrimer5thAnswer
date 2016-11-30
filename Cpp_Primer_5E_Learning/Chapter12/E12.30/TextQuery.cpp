@@ -3,27 +3,32 @@
 //
 
 #include "TextQuery.h"
-#include <vector>
-#include <string>
+#include "QueryResult.h"
 #include <sstream>
 
-using std::vector;
-using std::string;
-using std::istringstream;
-
-TextQuery::TextQuery(std::ifstream& is) : file(new vector<string>) {
-    string text;
+TextQuery::TextQuery(std::ifstream& is) : file(new std::vector<std::string>) {
+    std::string text;
     while (getline(is, text)) {
         file->push_back(text);
         int n = file->size() - 1;
-        istringstream line(text);
-        string word;
+        std::istringstream line(text);
+        std::string word;
         while (line >> word) {
             auto &lines = wm[word];
             if (!lines)
-                lines.reset(new set<line_no>);
+                lines.reset(new std::set<line_no>);
             lines->insert(n);
         }
     }
 }
+
+QueryResult TextQuery::query(const std::string &sought) const {
+    static std::shared_ptr<std::set<line_no>> nodata(new std::set<line_no>);
+    auto loc = wm.find(sought);
+    if (loc == wm.end())
+        return QueryResult(sought, nodata, file);
+    else
+        return QueryResult(sought, loc->second, file);
+}
+
 
