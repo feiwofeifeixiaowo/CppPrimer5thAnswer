@@ -1,0 +1,3 @@
+/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/cmake-build-debug/CMakeFiles/Cpp_Primer_5E_Learning.dir

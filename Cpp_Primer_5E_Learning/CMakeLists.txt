@@ -16,7 +16,7 @@ aux_source_directory(Chapter12/E12.30/ DIR_SRCS)
 set(SOURCE_FILES  Chapter13/E13.13.cpp)
 
 # 指定生成目标
-#add_executable(Cpp_Primer_5E_Learning ${SOURCE_FILES} ${DIR_SRCS})
+add_executable(Cpp_Primer_5E_Learning ${SOURCE_FILES})
 
 # 添加链接库
 #target_link_libraries(Cpp_Primer_5E_Learning ConstStrBlobPtr)
