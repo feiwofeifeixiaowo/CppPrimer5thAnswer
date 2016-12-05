@@ -34,12 +34,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="E13.22.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter13/E13.22.h">
+      <file leaf-file-name="myStrBlob.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/E13.26/myStrBlob.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="17" />
+              <folding>
+                <element signature="e#122#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrBlobPtr.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="66" column="2" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="66" selection-end-column="2" />
+              <folding>
+                <element signature="e#148#165#0" expanded="true" />
+                <element signature="e#227#247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter16/E16.1_2_3.cpp" />
         <option value="$PROJECT_DIR$/Chapter16/E16.4.cpp" />
         <option value="$PROJECT_DIR$/Chapter16/E16.5.cpp" />
         <option value="$PROJECT_DIR$/Chapter16/E16.6.cpp" />
@@ -107,6 +121,7 @@
         <option value="$PROJECT_DIR$/Chapter13/E13.18/Employee.h" />
         <option value="$PROJECT_DIR$/Chapter13/README.MD" />
         <option value="$PROJECT_DIR$/Chapter13/E13.22.h" />
+        <option value="$PROJECT_DIR$/Chapter13/E13.26/myStrBlob.h" />
       </list>
     </option>
   </component>
@@ -160,6 +175,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Chapter13" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cpp_Primer_5E_Learning" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cpp_Primer_5E_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter13" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E13.26" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cpp_Primer_5E_Learning" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cpp_Primer_5E_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,12 +470,12 @@
       <workItem from="1480846690322" duration="409000" />
       <workItem from="1480847260120" duration="521000" />
       <workItem from="1480902645897" duration="3424000" />
-      <workItem from="1480917355788" duration="2149000" />
+      <workItem from="1480917355788" duration="4202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253276000" />
+    <option name="totallyTimeSpent" value="255329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,13 +578,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter16/E16.7.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.2/Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -651,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.20.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -701,13 +734,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.27/TextQuery.cpp" />
-    <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.27/QueryResult.cpp" />
     <entry file="file://$PROJECT_DIR$/Chapter12/E12.27/QueryResult.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -878,9 +904,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13/E13.22.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="146">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/E12.19/StrBlobPtr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="66" column="2" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="66" selection-end-column="2" />
+          <folding>
+            <element signature="e#148#165#0" expanded="true" />
+            <element signature="e#227#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/E13.26/myStrBlob.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="17" />
+          <folding>
+            <element signature="e#122#139#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
