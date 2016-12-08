@@ -13,7 +13,7 @@ aux_source_directory(Chapter12/E12.30/ DIR_SRCS)
 #add_subdirectory(Chapter12/E12.30)
 
 # 执行文件 入口函数所在文件
-set(SOURCE_FILES  Chapter13/E13.18/test.cpp)
+set(SOURCE_FILES  Chapter13/E13.30.cpp)
 
 # 指定生成目标
 add_executable(Cpp_Primer_5E_Learning ${SOURCE_FILES})
