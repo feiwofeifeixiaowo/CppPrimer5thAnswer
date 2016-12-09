@@ -6,6 +6,7 @@
 #define CPPPRIMER5ELEARNING_MESSAGE_H
 
 #include <string>
+#include <set>
 
 class Folder;
 class Message {
@@ -21,6 +22,8 @@ public:
     // 从给定Folder集合中添加删除本Message
     void save(Folder&);
     void remove(Folder&);
+    void addFldr(Folder& f) {folders.insert(f);}
+    void remFldr(Folder& f) {folders.erase(f);}
 private:
     // 实际消息文本
     std::string contents;
