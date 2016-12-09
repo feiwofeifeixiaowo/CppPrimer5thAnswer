@@ -13,6 +13,7 @@ class Message {
     friend class Folder;
 public:
     // folders 被隐式的初始化为空set
+    friend void swap(Message& lhs, Message& rhs);
     explicit Message(const std::string& str = "") :
             contents(str) { }
     // 拷贝控制成员
@@ -35,4 +36,17 @@ private:
     void remove_from_Folders();
 };
 
+void swap(Message& lhs, Message& rhs) {
+    using std::swap;
+    for (auto f : lhs.folders)
+        f->remMsg(&lhs);
+    for (auto f : rhs.folders)
+        f->remMgs(&rhs);
+    swap(lhs.contents, rhs.contents);
+    swap(lhs.folders, rhs.folders);
+    for (auto f : lhs.folders)
+        f->addMsg(&lhs);
+    for (auto f : rhs.folders)
+        f->addMsg(&rhs);
+}
 #endif //CPPPRIMER5ELEARNING_MESSAGE_H
