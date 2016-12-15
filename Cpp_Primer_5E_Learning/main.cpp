@@ -56,6 +56,9 @@ int main() {
         alloc.destroy(--q1);    // destroy后，q1 指向最后一个构造的元素。
      // 释放内存
     alloc.deallocate(p, 10);
+    unsigned flag = 1;
+    auto fflag = compl flag;
+
     return 0;
 }
 
