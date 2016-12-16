@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/Chapter13/E13.30.cpp
-E13.31.h
-/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/Chapter13/E13.31.h
+/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/Chapter16/Test.cpp
 iostream
--
-algorithm
 -
 vector
--
-string
--
-
-/Users/X/Git_Repo/CppPrimer5thAnswer/Cpp_Primer_5E_Learning/Chapter13/E13.31.h
-string
--
-iostream
 -
 
